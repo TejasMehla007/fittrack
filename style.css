@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f4f4f4;
+}
+
+
+/* Home */
+
+.home {
+    height: 450px;
+
+background-image:
+ linear-gradient(#0008, #0008),
+ url("gym.jpg");
+
+ background-size: cover;
+ background-position: center;
+
+ color: white;
+
+ display: flex;
+ flex-direction: column;
+
+justify-content: center;
+align-items: center;
+
+ text-align: center;
+}
+
+.home h1 {
+    font-size: 45px;
+}
+
+.home a {
+    background: #ff6b35;
+    color: white;
+
+    padding: 10px 20px;
+
+    text-decoration: none;
+}
+
+
+/* Sections */
+
+.section {
+    width: 85%;
+    margin: 40px auto;
+
+    text-align: center;
+}
+
+
+/* Dashboard */
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.cards div {
+    background: white;
+
+    padding: 20px;
+
+    flex: 1;
+
+    border-radius: 8px;
+}
+
+
+/* Food Tracker */
+
+.food {
+    background: white;
+
+    padding: 25px;
+
+    display: flex;
+    gap: 40px;
+
+    text-align: left;
+}
+
+.food div {
+    flex: 1;
+}
+
+input {
+    display: block;
+
+    width: 100%;
+
+    padding: 10px;
+
+    margin: 10px 0;
+}
+
+button {
+    background: #ff6b35;
+
+    color: white;
+
+    border: none;
+
+    padding: 10px 20px;
+
+    cursor: pointer;
+}
+
+/* Food list (added for JavaScript) */
+
+#message {
+    color: #ff6b35;
+}
+
+#foodList {
+    list-style: none;
+    padding: 0;
+}
+
+#foodList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px;
+    margin: 8px 0;
+
+    background: #f4f4f4;
+    border-radius: 6px;
+}
+
+.delete-btn {
+    padding: 6px 12px;
+}
+
+
+/* About */
+
+.about {
+    background: white;
+
+    padding: 30px;
+}
